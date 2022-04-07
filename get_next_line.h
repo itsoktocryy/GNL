@@ -6,7 +6,7 @@
 /*   By: rzachara <rzachara@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 20:03:40 by rzachara          #+#    #+#             */
-/*   Updated: 2022/04/07 20:04:20 by rzachara         ###   ########.fr       */
+/*   Updated: 2022/04/07 21:26:39 by rzachara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <stdio.h>
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 8
+#  define BUFFER_SIZE 9
 # endif
 
 size_t			ft_strlen(char *str);
