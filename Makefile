@@ -4,7 +4,6 @@ LIGHT_GREEN		=	\033[1;32m
 YELLOW			=	\033[1;33m
 WHITE			=	\033[1;37m
 
-
 EXEC		=   EXEC
 
 SRCS		= 	$(wildcard *.c)

@@ -6,12 +6,11 @@
 /*   By: rzachara <rzachara@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 20:01:52 by rzachara          #+#    #+#             */
-/*   Updated: 2022/04/08 16:38:37 by rzachara         ###   ########.fr       */
+/*   Updated: 2022/04/08 16:39:44 by rzachara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
 
 char	*ft_get_line(char *input)
 {

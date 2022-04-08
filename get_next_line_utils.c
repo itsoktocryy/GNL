@@ -6,12 +6,11 @@
 /*   By: rzachara <rzachara@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 20:02:33 by rzachara          #+#    #+#             */
-/*   Updated: 2022/04/08 16:38:55 by rzachara         ###   ########.fr       */
+/*   Updated: 2022/04/08 16:39:46 by rzachara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
 
 size_t	ft_strlen(char *str)
 {
