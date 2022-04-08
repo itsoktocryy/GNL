@@ -6,9 +6,10 @@
 /*   By: rzachara <rzachara@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 20:03:40 by rzachara          #+#    #+#             */
-/*   Updated: 2022/04/08 16:34:53 by rzachara         ###   ########.fr       */
+/*   Updated: 2022/04/08 16:39:00 by rzachara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
