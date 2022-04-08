@@ -6,7 +6,7 @@
 /*   By: rzachara <rzachara@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 20:01:52 by rzachara          #+#    #+#             */
-/*   Updated: 2022/04/08 16:30:21 by rzachara         ###   ########.fr       */
+/*   Updated: 2022/04/08 16:33:10 by rzachara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,11 +114,11 @@ int	main()
 	int		fd;
 
 	fd = open("tests/5.txt", O_RDONLY);
-	i = 0;
-	while (i < 3)
+	i = 1;
+	while (i <= 3)
 	{
 		line = get_next_line(fd);
-		printf("line [%d]: %s", i, line);
+		printf("line [%02d]: %s", i, line);
 		free(line);
 		i++;
 	}
