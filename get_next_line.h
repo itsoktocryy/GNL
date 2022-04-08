@@ -6,7 +6,7 @@
 /*   By: rzachara <rzachara@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 20:03:40 by rzachara          #+#    #+#             */
-/*   Updated: 2022/04/07 21:26:39 by rzachara         ###   ########.fr       */
+/*   Updated: 2022/04/08 16:34:53 by rzachara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@
 
 size_t			ft_strlen(char *str);
 char			*ft_strchr(char *s, int c);
-char			*ft_strjoin(char *input, char *buff);
+char			*ft_strjoin(char *s1, char *s2);
 char			*get_next_line(int fd);
 
 char			*ft_get_line(char *input);

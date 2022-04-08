@@ -6,7 +6,7 @@
 /*   By: rzachara <rzachara@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 20:02:33 by rzachara          #+#    #+#             */
-/*   Updated: 2022/04/07 20:03:11 by rzachara         ###   ########.fr       */
+/*   Updated: 2022/04/08 16:34:45 by rzachara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,29 +42,29 @@ char	*ft_strchr(char *s, int c)
 	return (0);
 }
 
-char	*ft_strjoin(char *input, char *buff)
+char	*ft_strjoin(char *s1, char *s2)
 {
 	size_t		x;
 	size_t		y;
 	char		*str;
 
-	if (!input)
+	if (!s1)
 	{
-		input = malloc(sizeof(char) * 1);
-		input[0] = '\0';
+		s1 = malloc(sizeof(char) * 1);
+		s1[0] = '\0';
 	}
-	if (!input || !buff)
+	if (!s1 || !s1)
 		return (0);
-	str = malloc(sizeof(char) * (ft_strlen(input) + ft_strlen(buff) + 1));
+	str = malloc(sizeof(char) * (ft_strlen(s1) + ft_strlen(s2) + 1));
 	if (!str)
 		return (NULL);
 	x = -1;
 	y = 0;
-	while (input[x++] != '\0')
-		str[x] = input[x];
-	while (buff[y] != '\0')
-		str[x++] = buff[y++];
-	str[ft_strlen(input) + ft_strlen(buff)] = '\0';
-	free(input);
+	while (s1[x++] != '\0')
+		str[x] = s1[x];
+	while (s2[y] != '\0')
+		str[x++] = s2[y++];
+	str[ft_strlen(s1) + ft_strlen(s2)] = '\0';
+	free(s1);
 	return (str);
 }
